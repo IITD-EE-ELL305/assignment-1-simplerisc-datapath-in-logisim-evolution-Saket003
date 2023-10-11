@@ -50,16 +50,16 @@ You can check the boxes below as you progress through the assignment, simply by 
   - [x] Add a 'control circuit' that will take the instruction and generate the appropriate ALU_OP signal for the ALU to perform the operation  
         For this, you will have to open and study the ALU circuit to know what control signals to generate
   - [x] Commit with message "Added ALU" and push to Github
-- [ ] Write back stage
-  - [ ] Write the results of the execution back to the register file
-  - [ ] You will have to add a control signal, which takes the instruction as the input and uses it for enabling writing to the register file when appropriate
-  - [ ] Now write a simple 
+- [x] Write back stage
+  - [x] Write the results of the execution back to the register file
+  - [x] You will have to add a control signal, which takes the instruction as the input and uses it for enabling writing to the register file when appropriate
+  - [x] Now write a simple 
 2. Add support for immediate format instructions
 - [ ] I-type arithmetic instructions
-  - [ ] Add a circuit for immediate generation (this circuit takes the instruction as the input and extracts the 'immediate' from it and makes it 32 bits long
-  - [ ] Add a multiplexer to choose between immediate and register data as input to the ALU
-  - [ ] Update the control circuit to support choosing between register and _imm_ at the mux
-  - [ ] Test: Write a simple assembly program with only I- and R- format arithmetic instructions to load two numbers in two registers; then add them and store data in a third register (all these numbers will show up on your LED bars for you to test!)
-  - [ ] Commit to git with message "Added I-format arithmetic instructions" and push to Github
+  - [x] Add a circuit for immediate generation (this circuit takes the instruction as the input and extracts the 'immediate' from it and makes it 32 bits long
+  - [x] Add a multiplexer to choose between immediate and register data as input to the ALU
+  - [x] Update the control circuit to support choosing between register and _imm_ at the mux
+  - [x] Test: Write a simple assembly program with only I- and R- format arithmetic instructions to load two numbers in two registers; then add them and store data in a third register (all these numbers will show up on your LED bars for you to test!)
+  - [x] Commit to git with message "Added I-format arithmetic instructions" and push to Github
 
 End of assignment 1a. Congratulations! You now have a working CPU that can perform basic operations on numbers!
