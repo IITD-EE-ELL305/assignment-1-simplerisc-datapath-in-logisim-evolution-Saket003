@@ -1,0 +1,7 @@
+add r1,r1,#3 - 0x04440003
+add r2,r2,#3 - 0x04880003
+
+Imp careful of how bits loaded - Loading as 03 00 44 04
+
+03004404
+03008804

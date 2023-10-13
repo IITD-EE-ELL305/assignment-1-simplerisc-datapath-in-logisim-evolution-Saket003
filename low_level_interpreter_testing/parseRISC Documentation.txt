@@ -1,0 +1,4 @@
+Suppose program written in file.risc
+run:
+ python parseRISC.py file
+output hex program (to be loaded in IMEM) is named file.imem
